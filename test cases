@@ -13,3 +13,10 @@ pwd
 ps 
 ps -a
 ps -a -l
+echo "wow"
+export x=5
+echo "Hello $x" ==> Hello 5
+export x=
+echo $x ==>' '
+export x
+echo $x ==>' '
