@@ -1,0 +1,15 @@
+ls
+mkdir test
+ls
+ls -a -l -h
+firefox
+firefox & 
+gedit &
+exit 
+cd 
+cd ~
+cd ..
+pwd
+ps 
+ps -a
+ps -a -l
