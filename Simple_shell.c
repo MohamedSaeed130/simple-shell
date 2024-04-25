@@ -192,7 +192,7 @@ void execute_shell_bultin(char *Command_array[])
 void setup_environment(void)
 {
 	home_dir=getenv("HOME");
-	UserName=getenv("USER");
+	UserName=getenv("USER");// get the user name
 	chdir(home_dir);
 }
 
